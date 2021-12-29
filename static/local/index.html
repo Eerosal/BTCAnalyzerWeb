@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>BTC Analyzer</title>
+    <link rel="stylesheet" href="/css/pico.min.css">
+    <script type="module" src="js/analyzer.js"></script>
+    <style>
+        .no-break {
+            white-space: nowrap;
+        }
+    </style>
+</head>
+<body>
+<main class="container">
+    <hgroup>
+        <h2>BTC Analyzer (local)</h2>
+        <h3>Shows bitcoin statistics for the selected range of days</h3>
+    </hgroup>
+    <div id="module-container">
+        <div class="grid">
+            <div>
+                <form id="form">
+                    <label for="start-date">Start date</label>
+                    <input type="date" id="start-date" required>
+
+                    <label for="end-date">End date</label>
+                    <input type="date" id="end-date" required>
+
+                    <button type="submit" id="search-button">Run</button>
+                </form>
+            </div>
+        </div>
+    </div>
+</main>
+<footer class="container">
+    <p class="no-break">Data from <a href="https://www.coingecko.com/en" target="_blank">CoinGecko</a></p>
+</footer>
+
+<script type="module" src="js/index.js"></script>
+
+</body>
+</html>
