@@ -3,7 +3,7 @@ Vincit Rising Star Pre-assignment. (https://vincit.fi/risingstar/Vincit-Rising-S
 
 `static/` contains 2 directories for different versions of the web app.
 
-`static/local/` is the main version, does all processing locally in browser
+`static/local/` is the main version, does all processing locally in browser.
 
 `static/lambda/` is an alternative lambda version, does the same but runs mostly in AWS Lambda using Java. [[SOURCE](https://github.com/Eerosal/BtcAnalyzerLambda)]
 
