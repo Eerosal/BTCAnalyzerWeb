@@ -1,6 +1,4 @@
 # BTCAnalyzerWeb
-Vincit Rising Star Pre-assignment. (https://vincit.fi/risingstar/Vincit-Rising-Star-2021-Pre-assignment.pdf)
-
 `static/` contains 2 directories for different versions of the web app.
 
 `static/local/` is the main version, does all processing locally in browser.
