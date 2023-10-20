@@ -1,12 +1,28 @@
 # BTCAnalyzerWeb
+
+## 🚨 Disclaimer 🚨
+
+This small prototype doesn't mirror my current capabilities. Some of the key points:
+
+* Relies on ClickOps for rapid setup.
+* Initially used a public S3 bucket.
+* Chose Java for Lambda, potentially increasing cold start times.
+* Although it's a simple application, DOM manipulation might have benefited from a library like React.js.
+* Communication between the Lambda function could have been more streamlined using JSON to represent data.
+* Experienced visual issues with some browsers. These issues weren't present during the initial development.
+
+To mitigate risks, the live demo site has been replaced with a video demonstration.
+
+## Directory structure
+
 `static/` contains 2 directories for different versions of the web app.
 
 `static/local/` is the main version, does all processing locally in browser.
 
 `static/lambda/` is an alternative lambda version, does the same but runs mostly in AWS Lambda using Java. [[SOURCE](https://github.com/Eerosal/BtcAnalyzerLambda)]
 
-## Live demo
-http://btc-analyzer.s3-website.eu-north-1.amazonaws.com/navigation.html
+## Demo
+https://youtu.be/GgmzZ7g3xgk
 
 ## Usage
 Included index.js (root directory) starts a simple HTTP server. 
